@@ -1,0 +1,32 @@
+
+/* Colors:
+
+#F1EEE9 - White-ish
+#EC994B - Orange-ish
+#73777B - Green-ish
+#15133C - Blue-ish
+
+
+*/
+
+
+body{
+    background-color: #F1EEE9;
+    color: #15133C;
+}
+
+.skill-card{
+    border-style: groove;
+    width: 16%;
+    height: 15%;
+}
+
+.card-title{
+    margin-top: 0;
+    background-color: #73777B;
+    text-align: left;
+}
+
+.card-body{
+    text-align: center;
+}
