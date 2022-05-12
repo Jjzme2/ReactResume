@@ -1,12 +1,24 @@
-function SkillCard(props){
+export function SkillCard(props){
     return(
         <div className="skill-card"> 
-    {/* Individual Note */}
-        <div>
-            <h2 className="card-title">{props.title}</h2>
-            <p className="card-body">{props.content}</p>
+        <div className="card-title">
+            <dt>{props.name}</dt>
+            </div>
+            <div className="card-body">
+            <dd className="lefted-text">Began learning {props.yearStarted}</dd>
         </div></div>
     )
 }
 
-export default SkillCard;
+export function Card(props){
+    return(
+        <div className="card"> 
+        <div className="card-title">
+        <img className="card-img" src= {props.imgSrc}/>
+            <a href="https://www.linkedin.com/in/jjilytatgames">{props.title}</a>
+            </div>
+            <div className="card-body">
+            <p className="card-content">{props.content}</p>
+        </div></div>
+    )
+}
