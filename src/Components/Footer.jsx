@@ -1,7 +1,7 @@
 function Footer(){
     return(
         <footer>
-        <div className="footer">©️ILYTAT Studios {new Date().getFullYear()}</div>
+        <div className="footer centered-text">©️ILYTAT Studios {new Date().getFullYear()}</div>
         </footer>
     );
 }
