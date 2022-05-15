@@ -2,7 +2,7 @@ export function Card(props){
     return(
         <div className="card"> 
             <div className="card-title">
-            <img className="card-img" src= {props.imgSrc}/>
+            <img className="card-img" src= {props.imgSrc} alt="Developer Image"/>
             <a href="https://www.linkedin.com/in/jjilytatgames">{props.title}</a>
             </div>
             
