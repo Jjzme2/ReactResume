@@ -1,0 +1,64 @@
+/* Ghost Blocks */
+
+.ghost-block{
+    /* background-color: green; */
+    display: block;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+    width: 90%;
+}
+
+.section-block{
+    display: block;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+    width: 90%;
+}
+
+
+.list-title{
+font-size: 1.5rem;
+text-align: center;
+}
+
+
+.list-description{
+margin-left: auto;
+margin-right: auto;
+width: 80%;
+}
+
+.list{
+    /* background-color: green; */
+    box-shadow: 3px 3px 6px grey;
+    margin-left: auto;
+    margin-right: auto;
+    width:  50%;
+}
+.list-quote{
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 2%;
+    width:  80%;
+}
+
+
+.quote-block{
+    border: solid;
+    border-width: 2px;
+    margin: 3% auto;
+    width: 60%;
+}
+
+.quote-content{
+    background-color: black;
+    color: #EC9CD3;
+    text-align: center;
+}
+
+.quote-author{
+    text-align: left;
+    font-variant: small-caps;
+}
