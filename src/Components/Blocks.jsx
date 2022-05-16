@@ -8,12 +8,12 @@ function createListItem(item) {
     />
 }
 
-export function SectionBlock(props){
-    return (
-        <div className="section-block">
-        </div>
-    )
-}
+// export function SectionBlock(props){
+//     return (
+//         <div className="section-block">
+//         </div>
+//     )
+// }
 
 export function ListItemBlock(props){
     return (
@@ -40,7 +40,7 @@ export function QuoteBlock(props){
             </div>
         
             <div className="quote-author">
-            -{props.author}
+            ➖{props.author}
             </div>
         </div>
     )

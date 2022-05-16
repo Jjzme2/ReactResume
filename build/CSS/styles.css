@@ -31,9 +31,23 @@ body{
     border-style: solid;
     border-width: 3px;
     box-shadow: 5px 5px 10px black;
+    height: auto;
     width: 70%;
     margin-left: auto;
-    margin-right:auto;
+    margin-right: auto;
+}
+
+.left-float-view{
+    border-style: solid;
+    border-width: 1px;
+    box-shadow: 5px 5px 5px black;
+    float: left;
+    height: auto;
+    margin-top: 15%;
+    margin-left:auto;
+    margin-right: auto;
+    position: fixed;
+    width: 15%;
 }
 
 .lefted-text{
@@ -72,10 +86,4 @@ body{
     margin-right: auto;
     height: 25%;
     width: 90%;
-
-}
-
-.time-text{
-    text-align: center;
-    text-shadow: 3px 3px 4px grey;
 }

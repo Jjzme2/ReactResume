@@ -1,3 +1,6 @@
+import {Link} from './Texts'
+
+
 export function Card(props){
     return(
         <div className="card"> 
@@ -53,6 +56,23 @@ export function ListCard(props) {
             <div className="list-card-description">
                 {props.description}
             </div> 
+        </div>
+    )
+ }
+
+ function createLinkList(item){
+    return <Link
+    href={item.href}
+    text={item.text}
+    />
+ }
+
+ export function LinkListCard(props){ 
+    return(
+        <div className="link-list-card">
+            <div className="link-list">
+                <a>{props.list.map(createLinkList)}</a>
+            </div>
         </div>
     )
  }
