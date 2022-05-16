@@ -44,6 +44,21 @@ const skills = [
         name: 'Bootstrap', 
         yearStarted: 2022,
     },
+    {
+        key: 10,
+        name: 'MongoDB', 
+        yearStarted: 2022,
+    },
+    {
+        key: 11,
+        name: 'Mongoose', 
+        yearStarted: 2022,
+    },
+    {
+        key: 12,
+        name: 'SQL', 
+        yearStarted: 2022,
+    },
 ]
 
 export default skills;

@@ -1,6 +1,6 @@
 //Actual App Display code is put here.
 
-import React from "react";
+import React, {useState} from "react";
 import Header from "./Components/Header"
 import Footer from "./Components/Footer";
 import {SkillCard, GhostCard} from "./Components/Cards"
@@ -18,6 +18,16 @@ function createSkillCard(sc){
 
 
 function App() {
+
+  let time = new Date().toLocaleTimeString();
+  const [curTime, setTime] = useState(time);
+
+  function UpdateTime(){
+    let newTime = new Date().toLocaleTimeString();
+    setTime(newTime);
+  }
+  setInterval(UpdateTime, 1000)
+
   return (
     <div className="App">
       <div className="central-view">
@@ -68,6 +78,7 @@ function App() {
         author="Morpheus"
         />
 
+        <p className="time-text">{curTime}</p>
         <p className="centered-text">Ready To Connect? Click my name to head to my LinkedIn.         <a className="centered-text" href="#top">⬆️</a></p>
 
         <Footer />

@@ -1,3 +1,10 @@
+/* 
+font-family: 'Pacifico', cursive;
+font-family: 'Raleway', sans-serif; 
+font-family: 'Roboto Slab', serif;
+*/
+
+
 
 /* Colors:
 
@@ -13,6 +20,7 @@
 body{
     background-color: #FBF4E9;
     color: black;
+    font-family: 'Raleway', sans-serif; 
 }
 
 .centered-text{
@@ -64,4 +72,10 @@ body{
     margin-right: auto;
     height: 25%;
     width: 90%;
+
+}
+
+.time-text{
+    text-align: center;
+    text-shadow: 3px 3px 4px grey;
 }
