@@ -43,7 +43,9 @@ body{
     box-shadow: 5px 5px 5px black;
     float: left;
     height: auto;
-    margin: auto;
+    margin-top: 15%;
+    margin-left:auto;
+    margin-right: auto;
     position: fixed;
     width: 15%;
 }
