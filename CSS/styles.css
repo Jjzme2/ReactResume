@@ -44,8 +44,7 @@ body{
     box-shadow: 5px 5px 5px black;
     display: inline-block;
     height: auto;
-    margin-left: 0px;
-    margin-right: 2%;
+    margin: auto;
     width: 25%;
 }
 
