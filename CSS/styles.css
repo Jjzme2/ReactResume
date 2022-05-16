@@ -36,6 +36,14 @@ body{
     margin-right:auto;
 }
 
+.left-view{
+    border-style: solid;
+    border-width: 1px;
+    margin-left: 0px;
+    margin-right: auto;
+    width: 10px;
+}
+
 .lefted-text{
     text-align: left;
 }
@@ -72,9 +80,4 @@ body{
     margin-right: auto;
     height: 25%;
     width: 90%;
-
-}
-
-.time-text{
-    text-shadow: 3px 3px 4px black;
 }
