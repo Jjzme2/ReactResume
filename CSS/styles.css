@@ -1,3 +1,9 @@
+/* 
+font-family: 'Pacifico', cursive;
+font-family: 'Raleway', sans-serif; 
+*/
+
+
 
 /* Colors:
 
@@ -13,6 +19,7 @@
 body{
     background-color: #FBF4E9;
     color: black;
+    font-family: 'Raleway', sans-serif; 
 }
 
 .centered-text{
