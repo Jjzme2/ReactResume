@@ -45,6 +45,7 @@ body{
     float: left;
     height: auto;
     margin: auto;
+    position: fixed;
     width: 25%;
 }
 
