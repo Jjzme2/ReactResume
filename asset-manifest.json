@@ -1,10 +1,10 @@
 {
   "files": {
-    "main.js": "/ReactResume/static/js/main.d651d9f4.js",
+    "main.js": "/ReactResume/static/js/main.e275a920.js",
     "index.html": "/ReactResume/index.html",
-    "main.d651d9f4.js.map": "/ReactResume/static/js/main.d651d9f4.js.map"
+    "main.e275a920.js.map": "/ReactResume/static/js/main.e275a920.js.map"
   },
   "entrypoints": [
-    "static/js/main.d651d9f4.js"
+    "static/js/main.e275a920.js"
   ]
 }
