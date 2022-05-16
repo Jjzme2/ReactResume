@@ -42,7 +42,7 @@ body{
     border-style: solid;
     border-width: 1px;
     box-shadow: 5px 5px 5px black;
-    display: inline-block;
+    float: left;
     height: auto;
     margin: auto;
     width: 25%;
